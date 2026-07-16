@@ -1,12 +1,134 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>koltsov-ps.github.io</title>
-	</head>
-	<body>
-		<h2>Remembrall</h2>
-		<ul>
-			<li><a href="remembrall/privacy.html">Privacy Policy</a></li>
-		</ul>
-	</body>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pavel Koltsov — iOS Engineer</title>
+  <meta name="description" content="Pavel Koltsov — iOS engineer and mobile lead. Maker of Remembrall, a spaced-repetition flashcard app for iOS.">
+  <meta property="og:title" content="Pavel Koltsov — iOS Engineer">
+  <meta property="og:description" content="iOS engineer and mobile lead. Maker of Remembrall, a spaced-repetition flashcard app for iOS.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://koltsov-ps.github.io/">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon-pk.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@500;600;700;800&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body class="page-home">
+
+  <header class="site-header">
+    <div class="brand">
+      <div class="brand-mark">PK</div>
+      <span class="brand-name">Pavel Koltsov</span>
+    </div>
+    <nav class="site-nav">
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+      <a href="https://github.com/koltsov-ps" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/pavel-koltsov-58ab37b3/" target="_blank" rel="noopener">LinkedIn</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="eyebrow-accent">iOS Engineer</div>
+    <h1>Pavel Koltsov</h1>
+    <p class="hero-lead">I lead the mobile team at Prequel and build iOS apps end to end — sync engines, on-device storage, and the small interactions that make an app feel considered. After hours, most of that goes into <a href="remembrall.html">Remembrall</a>.</p>
+    <div class="button-row">
+      <a class="btn btn-mint" href="remembrall.html">View Remembrall →</a>
+      <a class="btn btn-ghost" href="mailto:koltsov.ps@gmail.com">Say hello</a>
+    </div>
+  </section>
+
+  <section id="work" class="section section-rule">
+    <div class="about-grid">
+      <div>
+        <div class="eyebrow">About</div>
+        <p>I've been shipping software since 2004 — desktop, web, high-load backends, and, for the last decade, iOS. These days I lead mobile development at Prequel; before that I built language-learning products at Skyeng, the Tinkoff Investments app, and document workflows at SKB Kontur.</p>
+        <p>Remembrall, a spaced-repetition flashcard app, is my own corner of the App Store: offline-first storage, CloudKit sync, file parsing, and enough theming code to repaint the whole app in two palettes. Outside of that, I keep a small set of Swift packages — Core Data helpers, structured logging, layout and sync utilities — that travel with me from project to project.</p>
+      </div>
+      <div>
+        <div class="eyebrow">Stack</div>
+        <div class="chip-row">
+          <span class="chip">Swift</span>
+          <span class="chip">SwiftUI</span>
+          <span class="chip">UIKit</span>
+          <span class="chip">Core Data</span>
+          <span class="chip">CloudKit</span>
+          <span class="chip">Combine</span>
+          <span class="chip">Fastlane</span>
+          <span class="chip">Tuist</span>
+          <span class="chip">Firebase</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top: 0;">
+    <div class="eyebrow">Experience</div>
+    <ul class="xp-list">
+      <li>
+        <span class="xp-years">2022 — now</span>
+        <span class="xp-role">Prequel · Mobile Lead</span>
+        <span class="xp-note">Leading the mobile team behind the Prequel photo &amp; video editor.</span>
+      </li>
+      <li>
+        <span class="xp-years">2019 — 2022</span>
+        <span class="xp-role">Skyeng · Senior iOS / Team Lead</span>
+        <span class="xp-note">Launched LANG and Skysmart Class; grew the mobile platform team.</span>
+      </li>
+      <li>
+        <span class="xp-years">2017 — 2019</span>
+        <span class="xp-role">Tinkoff · Lead iOS Developer</span>
+        <span class="xp-note">Built the Tinkoff Investments brokerage app and a chat component shared by three apps.</span>
+      </li>
+      <li>
+        <span class="xp-years">2017</span>
+        <span class="xp-role">Yandex · iOS Developer</span>
+        <span class="xp-note">Worked on the Trains and Direct apps.</span>
+      </li>
+      <li>
+        <span class="xp-years">2004 — 2017</span>
+        <span class="xp-role">SKB Kontur · Lead Software Engineer</span>
+        <span class="xp-note">Thirteen years across desktop, web, high-load services, and Xamarin mobile.</span>
+      </li>
+    </ul>
+  </section>
+
+  <section class="section" style="padding-top: 0;">
+    <div class="eyebrow">Featured work</div>
+    <a class="feature-card" href="remembrall.html">
+      <img src="assets/img/app-icon.jpeg" alt="Remembrall app icon">
+      <div class="feature-card-body">
+        <div class="feature-card-title">Remembrall</div>
+        <div class="feature-card-desc">A focused spaced-repetition flashcard app for iOS — make cards by hand or import a CSV, and let the schedule do the remembering.</div>
+        <div class="feature-card-tags">
+          <span class="tag">Spaced repetition</span>
+          <span class="tag">CSV import</span>
+          <span class="tag">iCloud sync</span>
+          <span class="tag">Text-to-speech</span>
+        </div>
+        <div class="feature-card-credit">Visual design by Alena Koltsova</div>
+      </div>
+      <div class="feature-card-cta">
+        <strong>View project →</strong>
+        <small>Live on the App Store</small>
+      </div>
+    </a>
+  </section>
+
+  <section id="contact" class="section section-rule contact">
+    <h2>Say hello.</h2>
+    <div class="contact-links">
+      <a href="mailto:koltsov.ps@gmail.com">koltsov.ps@gmail.com</a>
+      <a href="https://github.com/koltsov-ps" target="_blank" rel="noopener">GitHub ↗</a>
+      <a href="https://www.linkedin.com/in/pavel-koltsov-58ab37b3/" target="_blank" rel="noopener">LinkedIn ↗</a>
+    </div>
+    <div class="footer-meta">
+      <span>© 2026 Pavel Koltsov</span>
+      <span>Built by hand, one component at a time.</span>
+    </div>
+  </section>
+
+</body>
 </html>
